@@ -122,6 +122,12 @@ for a given function.
 Feel free to head over to additional resources for examples on this. Big-O is the primary notation used
 for general algorithm time complexity.
 
+###Theta
+A function f(n) belongs to the set Ɵ(g(n)) if there exist positive constants c1 and c2 such that it can be "sandwiched" between c1g(n) and c2g(n),for sufficiently large n. Because Ɵ(g(n)) is a set,we could write "f(n) ϵ Ɵ(g(n))" to indicate that
+f(n) is a member of Ɵ(g(n)) or f(n) = Ɵ(g(n)).For all n >= n0,the function f(n) is equal to g(n) to within a constant factor.That is g(n) is an asymptotically tight bound for f(n).
+
+Ɵ(g(n))={ f(n) : ther exists positive constants c1,c2 and n0 such that 0 <= c1g(n) <= f(n) <= c2g(n) for all n >= n0 }
+
 ### Ending Notes
 It's hard to keep this kind of topic short, and you should definitely go through the books and online
 resources listed. They go into much greater depth with definitions and examples.
